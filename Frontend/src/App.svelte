@@ -6,20 +6,20 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
 	<div class="center">
-        <h1 class="heading">login</h1>
+        <h1 class="heading">Login</h1>
         <form method="post">
             <div class="text_field">
                 <input type="text" required placeholder="Enter your username*">
                 <label for=""></label>
             </div>
             <div class="text_field">
-                <input type="password" required placeholder="Enter youe password*">
+                <input type="password" required placeholder="Enter your password*">
                 <label for=""></label>
             </div>
             <div class="pass">forgot password?</div>
-            <input type="submit" value="login">
+            <input type="submit" value="Login">
             <div class="sign_uplink">
-                not a member? <a href="#">sign up</a>
+                Not a member? <a href="#">sign up</a>
             </div>
         </form>
     </div>
@@ -33,10 +33,10 @@
 		/* padding: 1em; */
 		max-width: 240px;
 		margin: 0 ;
-        	padding: 0 ;
-        	background: black;
-        	height: 100vh;
-        	overflow: hidden;
+        padding: 0 ;
+        background: black;
+        height: 100vh;
+        overflow: hidden;
 	}
 
 	h1 {
@@ -67,6 +67,8 @@
         padding: 0 5px;
         height: 30px;
         border-radius: 10px;
+        box-shadow: 2px 2px 5px wheat;
+        background-color:wheat;
     }
     .text_field label{
         position: absolute;
@@ -81,19 +83,20 @@
         background: #2691d9;
         border-radius: 10px;
         cursor: pointer;
+        box-shadow: 2px 2px 5px wheat;
 
     }
-    .signup_link{
+    .sign_uplink{
         margin: 30px 0;
         text-align: center;
         font-size: 16px;
         color: #a6a6a6;
 }
-.signup_link a{
+.sign_uplink {
   color: #2691d9;
   text-decoration: none;
 }
-.signup_link a:hover{
+.sign_uplink a:hover{
   text-decoration: underline;
 }
 .pass{
