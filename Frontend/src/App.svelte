@@ -33,10 +33,10 @@
 		/* padding: 1em; */
 		max-width: 240px;
 		margin: 0 ;
-        padding: 0 ;
-        background: black;
-        height: 100vh;
-        overflow: hidden;
+        	padding: 0 ;
+        	background: black;
+        	height: 100vh;
+        	overflow: hidden;
 	}
 
 	h1 {
