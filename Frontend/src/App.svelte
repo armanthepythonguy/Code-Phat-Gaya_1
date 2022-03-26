@@ -67,7 +67,7 @@
         margin: 30px 0;
     }
     .text_field input{
-        width: 25%;
+        width: 20rem;
         padding: 0 5px;
         height: 30px;
         border-radius: 10px;
@@ -81,13 +81,15 @@
         color: #413d3d;
     }
     input[type="submit"]{
-        width: 7%;
+        width: 5rem;
         /* height: 30px; */
         border: 1px solid #6d777e;
         background: #2691d9;
         border-radius: 10px;
         cursor: pointer;
         box-shadow: 2px 2px 5px wheat;
+        height: 2.5rem;
+        font-size: 1.2rem;
 
     }
     .sign_uplink{
