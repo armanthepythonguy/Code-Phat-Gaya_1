@@ -1,7 +1,7 @@
 <script>
   import Dash1 from "./Dash1-DESKTOP-H9VE4JI.svelte"
-  let count=0;
-  let count1=0;
+  let count=1;
+  let count1=-1;
   function counter(){
     count+=1
   }
@@ -20,13 +20,13 @@
       760
     </div>
   <div class="name">
-    Ramanuja 
+    Chidam 
   </div>
   <div class="icons">
     <div class="img">
-    <a href=""><img src="./img/icons8-codechef.svg" alt=""></a>
-    <a href=""><img src="./img/icons8-github.svg" alt=""></a>
-    <a href=""><img src="./img/icons8-leetcode.png" alt=""></a>
+    <a href="https://www.codechef.com/users/chidam333"><img src="./img/icons8-codechef.svg" alt=""></a>
+    <a href="https://github.com/chidam333"><img src="./img/icons8-github.svg" alt=""></a>
+    <a href="https://leetcode.com/chidam333/"><img src="./img/icons8-leetcode.png" alt=""></a>
     </div>
   </div>
   <div class="counter">
@@ -54,12 +54,14 @@
     grid-template-rows: 1fr;
   }
   .col1{
+    font-family: "robo";
     display: grid;
     place-items: center;
     grid-area: 1/1/2/2;
     background: green;
   }
   .col2{
+    font-family: "robo";
     display: grid;
     place-items: center;
     grid-area: 1/2/2/3;

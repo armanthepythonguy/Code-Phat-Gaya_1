@@ -1,14 +1,108 @@
 <script>
+    import {Router} from 'svelte-hash-router';
 </script>
 <main>
     <div class="head">The jobs available</div>
     <div class="full">
-    <a href="">
+    <a href="#/thanks">
     <div class="card">
         <div class="name">Senior engineer</div>
         <div class="score">Zoho</div>
     </div>
+    <div class="card">
+        <div class="name">Junior engineer</div>
+        <div class="score">Freshworks</div>
+    </div>
+    <div class="card">
+        <div class="name">Architect</div>
+        <div class="score">Polygon</div>
+    </div>
+    <div class="card">
+        <div class="name">Creator</div>
+        <div class="score">Dhruv</div>
+    </div>
+    <div class="card">
+        <div class="name"> Asst. engineer</div>
+        <div class="score">Postman</div>
+    </div>
+    <div class="card">
+        <div class="name">Technical Staff</div>
+        <div class="score">Swiggy</div>
+    </div>
+    <div class="card">
+        <div class="name">Content Writer</div>
+        <div class="score">Razorpay</div>
+    </div>
+    <div class="card">
+        <div class="name">Marketer</div>
+        <div class="score">Dream11</div>
+    </div>
+    <div class="card">
+        <div class="name">Product manager</div>
+        <div class="score">Zoho</div>
+    </div>
+    <div class="card">
+        <div class="name">Project engineer</div>
+        <div class="score">Orangescope</div>
+    </div>
+    <div class="card">
+        <div class="name">Project manager</div>
+        <div class="score">Zerodha</div>
+    </div>
+    <div class="card">
+        <div class="name">Technical HR</div>
+        <div class="score">Zoho</div>
+    </div>
+    <div class="card">
+        <div class="name">Senior engineer</div>
+        <div class="score">Zoho</div>
+    </div>
+    <div class="card">
+        <div class="name">Junior engineer</div>
+        <div class="score">Freshworks</div>
+    </div>
+    <div class="card">
+        <div class="name">Architect</div>
+        <div class="score">Polygon</div>
+    </div>
+    <div class="card">
+        <div class="name">Creator</div>
+        <div class="score">Dhruv</div>
+    </div>
+    <div class="card">
+        <div class="name"> Asst. engineer</div>
+        <div class="score">Postman</div>
+    </div>
+    <div class="card">
+        <div class="name">Technical Staff</div>
+        <div class="score">Swiggy</div>
+    </div>
+    <div class="card">
+        <div class="name">Content Writer</div>
+        <div class="score">Razorpay</div>
+    </div>
+    <div class="card">
+        <div class="name">Marketer</div>
+        <div class="score">Dream11</div>
+    </div>
+    <div class="card">
+        <div class="name">Product manager</div>
+        <div class="score">Zoho</div>
+    </div>
+    <div class="card">
+        <div class="name">Project engineer</div>
+        <div class="score">Orangescope</div>
+    </div>
+    <div class="card">
+        <div class="name">Project manager</div>
+        <div class="score">Zerodha</div>
+    </div>
+    <div class="card">
+        <div class="name">Technical HR</div>
+        <div class="score">Zoho</div>
+    </div>
     </a>
+    <Router/>
 
     </div>
 </main>
@@ -59,6 +153,6 @@
         background: black;
     }
     .full::-webkit-scrollbar-thumb{
-        background: wheat;
+        background: rgb(136, 94, 17);
     }
 </style>

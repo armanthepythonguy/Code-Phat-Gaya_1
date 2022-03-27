@@ -2,12 +2,12 @@
     import Router from 'svelte-hash-router';
 </script>
 <main>
-    <div class="heading">Submit Your Links</div>
+    <div class="heading">New post</div>
     <form action="" id="myform">
-        <div class="inp"><input type="text" placeholder="Github profile link" required></div>
-        <div class="inp"><input type="text" placeholder="Codechef profile link" required></div>
-        <div class="inp"><input type="text" placeholder="Leetcode profile link" required></div>
-        <div class="btn"><a href="#/dash1" on:click={document.getElementById('myform').submit()}>Submit !</a></div><Router/>
+        <div class="inp"><input type="text" placeholder="Position" required></div>
+        <div class="inp"><input type="text" placeholder="Company name" required></div>
+        <div class="inp"><input type="email" placeholder="Contact mail" required></div>
+        <div class="btn"><a href="#/thanks" on:click={document.getElementById('myform').submit()}>Submit !</a></div><Router/>
     </form>
 </main>
 <style>

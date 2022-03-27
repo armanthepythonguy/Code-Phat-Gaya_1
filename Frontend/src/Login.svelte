@@ -1,10 +1,7 @@
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
-
-<main>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	
+<script>
+    import Router from 'svelte-hash-router';
+</script>
+<main>	
 	<div class="center">
         <h1 class="heading">Login</h1>
         <form method="post">
@@ -17,7 +14,7 @@
                 <label for=""></label>
             </div>
             <div class="pass">forgot password?</div>
-            <input type="submit" value="Login">
+            <a class="logbtn" href="#/alink">login</a><Router/>
             <div class="sign_uplink">
                 Not a member? <a href="#">sign up</a>
             </div>
@@ -56,6 +53,7 @@
 		}
 	}
     .heading{
+        font-family: "samarkan";
         color: wheat;
     }
     .form{
@@ -80,8 +78,11 @@
         /* left: 5px; */
         color: #413d3d;
     }
-    input[type="submit"]{
-        width: 5rem;
+    .logbtn{
+        color: wheat;
+        text-decoration: none;
+        font-family: "roboto";
+        padding: 0.5rem 2rem;
         /* height: 30px; */
         border: 1px solid #6d777e;
         background: #2691d9;
