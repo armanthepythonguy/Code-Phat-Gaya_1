@@ -1,30 +1,29 @@
 <script>
-	export let name;
+	import { routes, Router } from 'svelte-hash-router';
+	import Footer from "./Footer.svelte";
+	import Nav from "./Nav.svelte";
+	import Dash1 from "./Dash1.svelte";
+	import Dash2 from "./Dash2.svelte";
+	import Alink from "./Alink.svelte";
+	import Login from "./Login.svelte";
+	import Reg from "./Reg.svelte";
+	routes.set({
+		'/':Alink,
+		'/dash1':Dash1,
+		'/dash2':Dash2
+	}) 
 </script>
-
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Reg/>
 </main>
-
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	main{
+		position: relative;
 	}
+	.foot{
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 </style>

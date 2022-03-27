@@ -1,0 +1,37 @@
+/* font face */
+@font-face {
+    font-family: "Samarkan" ;
+    src: url('./fonts/samakaran/SAMAN___.TTF')
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url("./fonts/merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto";
+    src: url("./fonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "bsteel";
+    src: url('./fonts/hff-black-steel/HFF-Black-Steel.ttf');
+}
+@font-face {
+    font-family: "thai";
+    src: url("./fonts/tanglish/HFF-Thai-Dye.ttf");
+}
+@font-face {
+    font-family: "cube";
+    src: url("./fonts/cube/Qubix.ttf");
+}
+@font-face {
+    font-family: "robo";
+    src: url("./fonts/roblox/Roblox-Font-Bold.ttf");
+}
+@font-face {
+    font-family: "ele";
+    src: url("./fonts/elegant/Antipasto-ExtraLightTrial.ttf");
+}
+@font-face {
+    font-family: "codercoder";
+    src: url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+}
