@@ -1,6 +1,6 @@
 # Code-Phat-Gaya_1
 
-## The frontend part is ready just the backend part is a missing card in the deck. Most of the functions in the the backend is almost ready just we need to integrate it using axios.
+## The frontend part is ready just the backend part is a missing card in the deck. Most of the functions in the the backend are almost ready just we need to integrate it using axios.
 ## Due to the academic pressure of our college we were not able to complete the whole project.
 
 
